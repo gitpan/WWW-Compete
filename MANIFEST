@@ -1,0 +1,10 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/001-obj.t
+t/002-api_key.t
+t/003-search.t
+examples/simple_fetch.pl
+lib/WWW/Compete.pm
+META.yml                                 Module meta-data (added by MakeMaker)
