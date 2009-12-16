@@ -4,3 +4,10 @@ Revision history for Perl extension WWW::Compete.
 	- original version; created by h2xs 1.23 with options
 		-AX --skip-exporter --use-new-tests -n WWW::Compete
 
+0.02  Mon Dec 15 19:12:38 2009
+	- updated tests to deal with problem of requiring API key but
+          running under automated smoketesting.  It is recommended that you 
+          confirm the installation by editing and then running 
+          examples/simple_fetch.pl. The editing amounts to adding your API
+          key.
+

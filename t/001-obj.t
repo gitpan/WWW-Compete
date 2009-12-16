@@ -2,8 +2,6 @@
 #
 use strict;
 
-use lib '/home/mills/proj/CPAN/WWW-Compete/lib';
-
 use Test::More tests => 6;
 
 use WWW::Compete;
