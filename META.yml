@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               WWW-Compete
-version:            0.02
+version:            0.03
 abstract:           Simple OO interface for retrieving site rank, traffic stats, and trust rating from www.compete.com
 author:
     - Chris Mills <cmills@cpan.org>
@@ -10,7 +10,9 @@ configure_requires:
     ExtUtils::MakeMaker:  0
 build_requires:
     ExtUtils::MakeMaker:  0
-requires:  {}
+requires:
+    LWP::UserAgent:  0
+    XML::Simple:     0
 no_index:
     directory:
         - t
